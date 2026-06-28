@@ -13,6 +13,11 @@ A simple personal portfolio built using semantic HTML.
 ### 02 - Student Portal Registration
 A college admission portal demonstrating HTML forms, media, links, and semantic structure.
 
+# 🏥 Project 03 - Hospital Appointment Booking System
+
+A semantic HTML project that simulates an online hospital appointment booking website. The project demonstrates how a real-world healthcare website can be structured using only HTML without CSS or JavaScript.
+
+
 
 ## Technologies Used
 
