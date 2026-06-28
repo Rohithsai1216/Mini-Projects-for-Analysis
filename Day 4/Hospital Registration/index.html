@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospital Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>SVIMS Hospital</h1>
+            <p><strong>The place where your wounds heal</strong></p>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#dept">Departments</a>
+            <a href="#doc">Doctors</a>
+            <a href="#register">Book Appointment</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <main>
+            <section id="about">
+                <h2>Sri Venkateswara Institute of Medical Sciences</h2>
+                <p>It was established by TTD it serves the people of Tirupati and surroundings.It serves people with subsided prices and most of the service is free</p>
+            </section>
+            <section id="dept">
+                <ul>
+                    <li>Cardiology</li>
+                    <li>Orthopedics</li>
+                    <li>Nuerology</li>
+                </ul>
+            </section>
+            <section id="doc">
+                <article>
+                    <p><b>Dr Cardics<br>Speciliast in Cardiology<br>20 years of experience</b></p>
+                    <img src="/Day 4/Hospital Registration/images/doc1.jpg" alt="Dr Cardics profile pic">
+                </article>
+                <article>
+                    <p><b>Dr Pedaics<br>Speciliast in Pediatrics<br>20 years of experience</b></p>
+                    <img src="/Day 4/Hospital Registration/images/doc2.jpg" alt="Dr Cardics profile pic">
+                </article>
+            </section>
+            <section id="register">
+                <form method="get">
+                   <h4>Appointment Form</h4>
+                   <h5>Personal Information</h5>
+                   <label>Full Name<input type="text" required name="name"></label><br>
+                   <label>Email<input tyep="email" required name="email"></label><br>
+                   <label>Phone Number<input type="tel" required name="php"></label><br>
+                   <label>Age<input type="number" required name="age"></label><br>
+                   <label>Gender<input type="radio" name="gender" required value="male">male</label>
+                   <label>Gender<input type="radio" name="gender" required value="female">Female</label>
+                   <h5>Hospital Details</h5>
+                   <label>Department<select name="dept">
+                    <option value="" selected hidden>Choose dept</option>
+                    <option value="card">Cardiology</option>
+                    <option value="deas">biology</option>
+                    <option value="orhto">Orthopedics</option>
+                   </select></label><br>
+                   <label>Preferred Doctor<input type="checkbox" name="doct" value="cardics">Cardics <input type="checkbox" name="doct" value="diacs">Diacs<input type="checkbox" name="doct" value="pedics">Pedics</label><br>
+                   <label>Appointment Date <input type="date" name="date" required></label><br>
+                   <label>Preferred Time<input type="radio" name="time" value="after">Afternoon<input type="radio" name="time" value="evening">Evening</label><br>
+                   <label>Describe about your Symptons and existing medical conditions<textarea rows="5" cols="7" placeholder="Symptons" name="symptons"></textarea></label><br>
+                   <label>First visit<input type="radio" name="visit" value="yes">Yes<input type="radio" name="visit" value="no">No</label><br>
+                   <label>Upload Previous Records<input  type="file" name="prerecords"></label><br>
+                   <input type="submit" value="Book">
+                </form>
+            </section>
+            <section id="#hos">
+                <img src="/Day 4/Hospital Registration/images/163479-svims.webp" alt="SVIMS image" height="150" width="200"><br>
+                <audio controls>
+                    
+                    <source src="/Day 4/Hospital Registration/audio/peacefulness.mp3" type="audio/mp3">
+                </audio><br>
+            </section>
+            <aside><p>Helpline number= 1233333345<br>Ambulance 108<br>Blood bank</p></aside>
+            <section id="#contact">
+                <p><a href="tel:+91108889992">CAll</a></p>
+                <p><a href="mailto:svims@gmail.com">MAil</a></p>
+            </section>
+        </main>
+        <footer>
+            <footer>
+            <p>@ 2026 SVIMS Hospital<br>All Rights Reserved</p>
+        </footer>
+        </footer>
+    </body>
+</html>
